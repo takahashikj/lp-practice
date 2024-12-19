@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/resset.css">
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
@@ -12,22 +12,26 @@
 </head>
 
 <body>
-  <header class="header head-flex">
-    <fas class="head-color fa-envelope fa-3x"></fas>
-    <nav class="tex-head"><a href="#">Contact</a></nav>
+  <header id="header" class="header">
+    <div class="head-flex inner">
+      <i class="head-color fas fa-archway fa-3x"></i>
+      <nav class="tex-head"><a href="#">Contact</a></nav>
+    </div>
   </header>
     <main>
       <section class="keyvisual">
           <h1 class="key_lo key_text">WEB PRODUCTION COMPANY</h1>
-          <h2 class="key_lo key_text2">DIRECTION,CONTENT MARKETING</h2>
+          <h2 class="key_lo key_subtext">DIRECTION,CONTENT MARKETING</h2>
       </section>
     <section class="work_area">
         <div class="inner">
           <div class="work-flex">
-            <div class="work_img"></div>
+            <div class="work-img">
+              <img src="img/pc/pc.png" alt="PC" style="width: 250px; height: auto;">
+            </div>
             <div>
-              <h3 class="text_h3">WORK</h3>
-              <p class="work_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              <h3 class="work-text">WORK</h3>
+              <p class="work_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna
               aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
               consequat. Duis
@@ -37,8 +41,6 @@
           </div>
         </div>
     </section><!-- 「WORK」のタイトルがある部分 -->
-
-
     <section class="skill_box"> <!-- ←セクションの背景、要素内の余白 -->
       <div class="skills-inner">
         <h3 class="text_h3">WE ARE SKILLS</h3> <!-- ←inner:共通で使用する横幅、skills-inner:セクションごとで使用する場合に使用 -->
@@ -98,13 +100,17 @@
       </div>
     </section>
     <nav class="sns">
-      <fab class="sns-box fa-facebook-f"></fab>
-      <fab class="sns-box  fa-dribbble"></fab>
-      <fab class="sns-box  fa-twitter"></fab>
-      <fab class="sns-box  fa-envelope"></fab>
+      <i class="sns-box fab fa-facebook-f"></i>
+      <i class="sns-box fab fa-dribbble"></i>
+      <i class="sns-box fab fa-twitter"></i>
+      <i class="sns-box fab fa-envelope"></i>
     </nav><!-- iconが並んでいる部分 -->
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div class="inner">
+        <p class="foot-text">Copyright(c)</p>
+      </div>
+    </footer>
 </body>
 
 </html>
