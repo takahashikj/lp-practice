@@ -1,6 +1,6 @@
 @charset "utf-8";
 main{
-  padding-top: 70px;
+  padding-top: 78px;
 }
 .text-head {
   color: #ffffff;
@@ -71,6 +71,7 @@ align-items: center;
   align-items: center;
 }
 .img {
+  text-align: center;
   flex: 4;
   max-width: 100%;
 }
@@ -124,38 +125,35 @@ align-items: center;
   opacity: 1.0;
 }
 .skills-inner{
-  width: 1400px;
+  width: 1100px;
   margin: 0 auto;
+}
+.skills{
+  gap: 50px;
 }
 .skills-1{
   background: url(../img/skills/skills_1.png) no-repeat center/contain;
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin-right: 100px;
-  margin-bottom: 100px;
 }
 .skills-2{
   background: url(../img/skills/skills_2.png) no-repeat center/contain;
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin-bottom: 100px;
 }
 .skills-3{
   background: url(../img/skills/skills_3.png) no-repeat center/contain;
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin-left: 100px;
-  margin-bottom: 100px;
 }
 .skills-4{
   background: url(../img/skills/skills_4.png) no-repeat center/contain;
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin-right: 100px;
 }
 .skills-5{
   background: url(../img/skills/skills_5.png) no-repeat center/contain;
@@ -168,7 +166,6 @@ align-items: center;
   width: 300px;
   height: 300px;
   display: inline-block;
-  margin-left: 100px;
 }
 .plan-box{
   background-color: #d0dfea;
