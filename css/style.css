@@ -235,7 +235,6 @@ align-items: center;
 }
 .sns-box:hover {
   background-color: #fff;
-  transform: scale(1.05);
 }
 #footer{
   padding: 20px 0 25px 0;
